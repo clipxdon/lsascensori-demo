@@ -14,8 +14,8 @@ export const COMPANY = {
   privacy: './privacy.html',
 }
 
-// Firma nel footer: link al sito donAutomation
-export const CREDIT = { name: 'donAutomation', url: 'https://donautomation.it' }
+// Firma nel footer. Quando donautomation.it sarà online, mettere url: 'https://donautomation.it' per riattivare il link
+export const CREDIT = { name: 'donAutomation', url: '' }
 
 export const SERVICES = [
   { n: '01', title: 'Vendita e installazione', text: 'Nuovi impianti in edifici esistenti o in costruzione: dal rilievo del vano alla consegna chiavi in mano, con cabine e finiture scelte insieme.' },

@@ -357,7 +357,7 @@ function Footer() {
     <footer className="footer">
       <div className="brand"><Logo big /></div>
       <p>© {new Date().getFullYear()} {COMPANY.legal} · P.IVA {COMPANY.vat} · {COMPANY.address}, {COMPANY.city}</p>
-      <p className="demo-note"><a href={COMPANY.privacy}>Privacy e cookie</a> · Immagini e modelli 3D a scopo illustrativo · Sito realizzato da <a href={CREDIT.url} target="_blank" rel="noopener">{CREDIT.name}</a></p>
+      <p className="demo-note"><a href={COMPANY.privacy}>Privacy e cookie</a> · Immagini e modelli 3D a scopo illustrativo · Sito realizzato da {CREDIT.url ? <a href={CREDIT.url} target="_blank" rel="noopener">{CREDIT.name}</a> : CREDIT.name}</p>
     </footer>
   )
 }
