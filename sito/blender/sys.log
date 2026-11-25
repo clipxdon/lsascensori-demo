@@ -1,0 +1,9 @@
+00:00.301  blend            | Read blend: "/tmp/claude-0/-home-user/202d2f12-d914-57ba-9805-a5827874329d/scratchpad/ls2/blender/out/lsascensori.blend"
+00:35.954  render           | Saved: 'out/sys-lift.png'
+render lift
+01:09.048  render           | Saved: 'out/sys-cargo.png'
+render cargo
+01:43.642  render           | Saved: 'out/sys-platform.png'
+render platform
+02:14.900  render           | Saved: 'out/sys-stair.png'
+render stair

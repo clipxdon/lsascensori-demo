@@ -1,0 +1,9 @@
+{
+  // Sito statico su Cloudflare Workers (static assets): build di Vite in ./dist
+  "name": "lsascensorisrls",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
